@@ -10,9 +10,7 @@ function App() {
 
 
   return (
-    <>
-      
-      <main className="bg-slate-950 text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scroll-smooth font-montserrat font-bold">
+      <main className="bg-slate-950 text-white w-screen h-screen overflow-y-scroll z-0 scroll-smooth font-montserrat font-bold">
         <nav>
           <NavBar/>
         </nav>
@@ -35,9 +33,6 @@ function App() {
           <Education/>
         </section>
       </main>
-      
-      
-    </>
     
   )
 }
