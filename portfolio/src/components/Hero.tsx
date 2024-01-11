@@ -6,9 +6,16 @@ const Hero = () => {
         <div className="border-2 border-slate-400 rounded-full drop-shadow-xl">
             <Image maxHeight={200} className="rounded-full" src="/public/img/headshot2.jpg" alt="joel-papineau-headshot"/>
         </div>
-        <h1 className="tracking-widest text-2xl text-slate-300">Joel Papineau</h1>
+        <h1 className="tracking-wider text-3xl text-slate-300 font-bold">Joel Papineau</h1>
         <p className="tracking-widest text-slate-400">Software Engineer | Full Stack Developer</p>
-        <div className="flex flex-row space-x-4">
+        
+        <div className="flex flex-row space-x-4 items-center justify-center align-middle text-slate-300 mt-2 text-xl">
+          <a className="hover:text-slate-500 hover:underline" href="#education">Education</a>
+          <a className="hover:text-slate-500 hover:underline" href="#skills">Skills</a>
+          <a className="hover:text-slate-500 hover:underline" href="#experience">Experience</a>
+          <a className="hover:text-slate-500 hover:underline" href="#projects">Projects</a>
+        </div>
+        <div className="flex flex-row space-x-4 mt-4">
             <Button colorScheme="gray" >View Resume</Button>
         </div>
     </div>
