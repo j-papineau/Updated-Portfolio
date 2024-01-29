@@ -1,9 +1,9 @@
-import React from 'react'
+
 import { Image } from '@chakra-ui/react'
 
-type Props = {}
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <div className='flex flex-col items-center justify-center mt-10'>
         <p className="text-3xl lg:text-4xl tracking-wider font-bold text-slate-300 mb-10">About Me</p>

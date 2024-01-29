@@ -1,9 +1,7 @@
 import ExperienceCard from "./ExperienceCard"
 
-const adrDesc = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non mollitia impedit fugit corporis deserunt, enim doloribus \
-    dignissimos magni tempore autem, exercitationem consequatur similique cupiditate? Laborum error itaque minima atque eum! \
-    sit amet consectetur adipisicing elit. Non mollitia impedit fugit corporis deserunt, enim doloribus dignissimos magni tempore autem, \
-    exercitationem consequatur similique cupiditate? Laborum error itaque minima atque eum!"
+const adrDesc = "As a marketing support team member at ADR, I work closely with my lead in all aspects of ADR's online customer facing space. This includes developing tools on our front-end and back-end website using JavaScript, HTML, and the WordPress Platform, as well as creating pages, and managing the many Google Ads Campaigns used to generate meaningful customer connections. A large part of my role at ADR involves optimizing our content towards our SEO strategy, generating leads organically and improving our google search engine results ranking. Lastly, (through guidance of my lead) reading data and analyzing the changes over time to our campaigns, particularly in reference to our Click-through-rates and Click to lead ratio's, to optimize bidding strategies to get the best results per dollar spent in our ad campaigns."
+const targetDesc = "Responsible for the receiving processes of the store location. Including taking in replenishment trucks, and handling vendors in an efficient manner."
 
 const Experence = () => {
   return (
@@ -22,7 +20,7 @@ const Experence = () => {
             jobName="Target"
             years="April 2023 - Current"
             techUsed={false}
-            desc={adrDesc}
+            desc={targetDesc}
             imgURL="/img/targetlogo-6.jpeg"/>
         </div>
         

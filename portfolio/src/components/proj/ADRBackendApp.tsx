@@ -1,8 +1,7 @@
 import { Image } from '@chakra-ui/react'
 
-type Props = {}
 
-const ADRBackendApp = (props: Props) => {
+const ADRBackendApp = () => {
   return (
     <div className='flex flex-col items-center justify-center'>
         <p className='text-2xl tracking-wider my-2'>ADR Web Backend App</p>

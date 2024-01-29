@@ -1,10 +1,9 @@
-import React from 'react'
 import ADRSite from './proj/ADRSite'
 import ADRBackendApp from './proj/ADRBackendApp'
 
-type Props = {}
 
-const Projects = (props: Props) => {
+
+const Projects = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-10">
         <p className="text-3xl lg:text-4xl tracking-wider font-bold text-slate-300 mb-10">My Work</p>
